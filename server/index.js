@@ -13,7 +13,7 @@ app.use(cors());
 
 app.use('/posts', postRouter);
 
-const CONNECTION_URL = 'mongodb+srv://dbEmin:dbEminPass@secondcluster.0yen2.mongodb.net/BlogDatabase?retryWrites=true&w=majority';
+const CONNECTION_URL = 'Should be changed';
 
 const PORT  = process.env.PORT || 5000;
 
